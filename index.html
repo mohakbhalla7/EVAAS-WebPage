@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register your EVAAS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+    <div id="regForm">
+        <img src="logo.jpg" id="logo"/>
+        <!-- One "tab" for each step in the form: -->
+        <div class="tab" id="inForm">Enter unique system identificaion number
+            <p><input placeholder="UID" oninput="this.className = ''" id="uid"></p>
+        </div>
+        <div class="tab" id="inForm">Customer Details
+            <p><input placeholder="Full Name" oninput="this.className = ''" id="fname"></p>
+            <p><input placeholder="Mobile Number" oninput="this.className = ''" id="mnumber"></p>
+            <p><input placeholder="Address" oninput="this.className = ''" id="address"></p>
+            <p><input placeholder="Aadhar Card Number" oninput="this.className = ''" id="acnumber"></p>
+            <p><input placeholder="Emergency Contact Number" oninput="this.className = ''" id="enumber"></p>
+        </div>
+        <div class="tab" id="inForm">Vehicle Details
+            <p><input placeholder="Vehicle Model" oninput="this.className = ''" id="model"></p>
+            <p><input placeholder="Vehicle Colour" oninput="this.className = ''" id="colour"></p>
+            <p><input placeholder="Vehicle Number" oninput="this.className = ''" id="vnumber"></p>
+            <p><input placeholder="RC Number" oninput="this.className = ''" id="rcnumber"></p>
+        </div>
+        <div style="overflow:auto;" id="inForm">
+            <div style="float:right;">
+            <button type="button" id="prevBtn">Previous</button>
+            <button type="button" id="nextBtn">Next</button>
+            </div>
+        </div>
+        <!-- Circles which indicates the steps of the form: -->
+        <div style="text-align:center;margin-top:35px;" id="inForm">
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+        </div>
+        <div class="wrapper"> 
+            <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+                <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+            </svg>
+            <div>
+                <div style="font-family: Raleway; font-size: 24px; text-align: center;">Registration Successful</div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="script.js"></script> 
+</body>
+</html>
