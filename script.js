@@ -171,7 +171,8 @@ function registerToFirebase() {
       Emergency_No: enumber,
       WithinRangeFlag: 0,
       SOS_Flag: "0",
-      Last_Poll: "nil"
+      Last_Poll: "nil",
+      Is_Active: 0
     });
 }
 
