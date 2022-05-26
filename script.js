@@ -1,18 +1,17 @@
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-app.js";
-import { getDatabase, onValue, ref, set, child, update, remove } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-database.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
+import { getDatabase, onValue, ref, set, child, update, remove } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-database.js";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyA6cLQgOztlcOdXCXjUdBtH4Kgd_GEAqkU",
-  authDomain: "evaas-7fc57.firebaseapp.com",
-  databaseURL: "https://evaas-7fc57-default-rtdb.firebaseio.com",
-  projectId: "evaas-7fc57",
-  storageBucket: "evaas-7fc57.appspot.com",
-  messagingSenderId: "261799047413",
-  appId: "1:261799047413:web:9fa9eb09e261d3ca3b15bc"
+  apiKey: "AIzaSyAm85Ogy5zIBDLassR7eTizMlKa_-onatY",
+  authDomain: "ev-aas.firebaseapp.com",
+  projectId: "ev-aas",
+  storageBucket: "ev-aas.appspot.com",
+  messagingSenderId: "950451986928",
+  appId: "1:950451986928:web:af034b2f6dcd19a34f3d35"
 };
 
 // Initialize Firebase
